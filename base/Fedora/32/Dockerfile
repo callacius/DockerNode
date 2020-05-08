@@ -1,5 +1,4 @@
 FROM fedora:32
-
 MAINTAINER Daniel Costa <callacius@gmail.com>
 
 RUN dnf -y update && dnf clean all
