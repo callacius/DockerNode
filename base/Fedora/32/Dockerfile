@@ -9,7 +9,7 @@ RUN sudo dnf install -y \
 RUN sudo dnf install -y \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   
-RUN sudo dnf -y update
+RUN sudo dnf module list nodejs
 
 RUN dnf install -y \
       automake \
