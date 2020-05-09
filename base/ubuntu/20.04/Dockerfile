@@ -4,6 +4,7 @@ MAINTAINER Daniel Costa <callacius@gmail.com>
 RUN apt-get update -y\
  && apt-get upgrade -y\
  && apt-get install -y --no-install-recommends\
+	  apt-utils \
       apt-transport-https \
       ssh-client \
       build-essential \
