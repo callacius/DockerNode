@@ -1,9 +1,9 @@
-FROM ubuntu:20.04
+FROM ubuntu:focal
 MAINTAINER Daniel Costa <callacius@gmail.com>
 
-RUN apt update -y\
- && apt upgrade -y\
- && apt install -y --force-yes --no-install-recommends\
+RUN apt-get update -y\
+ && apt-get upgrade -y\
+ && apt-get install -y --no-install-recommends\
       apt-transport-https \
       ssh-client \
       build-essential \
