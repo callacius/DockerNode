@@ -1,4 +1,4 @@
-FROM callacius/node:base-fedora32
+FROM callacius/node:base-centos8
 MAINTAINER Daniel Costa <callacius@gmail.com>
 
 RUN sudo dnf -y update
