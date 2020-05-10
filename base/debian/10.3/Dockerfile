@@ -1,7 +1,7 @@
-FROM debian:sid
-MAINTAINER William Blankenship <wblankenship@nodesource.com>
+FROM debian:jessie
+MAINTAINER Daniel Costa <callacius@gmail.com>
 
-RUN apt-get update \
+RUN apt-get update -y\
  && apt-get install -y --force-yes --no-install-recommends\
       apt-transport-https \
       ssh-client \
